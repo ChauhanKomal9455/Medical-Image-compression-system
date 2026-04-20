@@ -6,7 +6,7 @@ import tempfile
 import matplotlib.pyplot as plt
 import streamlit as st
 
-from compression import ensure_directories, run_compression_pipeline
+from compression_lib import ensure_directories, run_compression_pipeline
 from metrics import evaluate_metrics
 
 
